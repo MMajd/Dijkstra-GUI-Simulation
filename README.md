@@ -1,1 +1,1 @@
-# Dijkstra-GUI-Simulation
+# License: GPL 3
