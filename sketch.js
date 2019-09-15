@@ -576,9 +576,7 @@ function resetAll() {
 function showHelp() 
 { 
 	//here we could use jquery modals to show this help instead of alert.
-	helpString = "This app was developed by Muhammad Abulmajd & Muhammad Medhat\n";
-
-	helpString+= " - To choose a source hold the letter (s/S) down on your keyboard\n"; 
+	helpString = " - To choose a source hold the letter (s/S) down on your keyboard\n"; 
 	helpString+= "	and double click on the wanted router\n";
 
 	helpString+= " - To choose a destination hold the letter (d/D) down on your keyboard\n"; 

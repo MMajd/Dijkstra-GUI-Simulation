@@ -328,11 +328,14 @@ function getEdge(r1, r2)
 
 function drawGrid() 
 { 
-	gridTiles = 5; 
+	return; 
 
-	tint(255, 100); //image transperancy from 255 to 150; 
-	for(var i=0; i<= gridTiles; i++) { 
-		image(gridImage, i * gridImage.width, 0);
-		image(gridImage, i * gridImage.width, gridImage.height);
-	}
+	// this function make the algorithm so slow on firefox 
+	// gridTiles = 5; 
+
+	// tint(255, 100); //image transperancy from 255 to 150; 
+	// for(var i=0; i<= gridTiles; i++) { 
+	// 	image(gridImage, i * gridImage.width, 0);
+	// 	image(gridImage, i * gridImage.width, gridImage.height);
+	// }
 }
